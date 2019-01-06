@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Code_Root\Git\DebitSuccess\DS_Automation_Level3\AgeRangerAutomationSuite\bin\Debug\AgeRangerWebUi.dll" total="21" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-12-28" time="07:34:14">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Code_Root\Git\DebitSuccess\DS_Automation_Level3\AgeRangerAutomationSuite" machine-name="DESKTOP-ATTCMC1" user="John" user-domain="DESKTOP-ATTCMC1" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Code_Root\Git\DebitSuccess\DS_Automation_Level3\AgeRangerAutomationSuite\bin\Debug\AgeRangerWebUi.dll" executed="True" result="Success" success="True" time="586.789" asserts="42">
+    <properties>
+      <property name="_PID" value="98292" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="AgeRangerWebUi" executed="True" result="Success" success="True" time="586.768" asserts="42">
+        <results>
+          <test-suite type="TestSuite" name="Features" executed="True" result="Success" success="True" time="586.767" asserts="42">
+            <results>
+              <test-suite type="TestFixture" name="AgeRangerUITestsFeature" description="AgeRanger UI Tests" executed="True" result="Success" success="True" time="586.764" asserts="42">
+                <properties>
+                  <property name="Description" value="AgeRanger UI Tests" />
+                </properties>
+                <results>
+                  <test-suite type="ParameterizedTest" name="AddNewPersonAndVerifyAgeGroup" description="Add New Person and Verify Age Group" executed="True" result="Success" success="True" time="423.545" asserts="32">
+                    <categories>
+                      <category name="AgeRangerUIRegression" />
+                    </categories>
+                    <properties>
+                      <property name="Description" value="Add New Person and Verify Age Group" />
+                    </properties>
+                    <results>
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;ToddlerFirst&quot;,&quot;ToddlerLast&quot;,&quot;0&quot;,&quot;Toddler&quot;,null)" executed="True" result="Success" success="True" time="27.803" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;ChildFirst&quot;,&quot;ChildLast&quot;,&quot;2&quot;,&quot;Child&quot;,null)" executed="True" result="Success" success="True" time="26.376" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;TeenagerFirst&quot;,&quot;TeenagerLast&quot;,&quot;14&quot;,&quot;Teenager&quot;,null)" executed="True" result="Success" success="True" time="26.327" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;EarlyTwentiesFirst&quot;,&quot;EarlyTwentiesLast&quot;,&quot;20&quot;,&quot;Early twenties&quot;,null)" executed="True" result="Success" success="True" time="26.883" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;AlmostThirtyFirst&quot;,&quot;AlmostThirtyLast&quot;,&quot;25&quot;,&quot;Almost thirty&quot;,null)" executed="True" result="Success" success="True" time="26.280" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;VeryAdultFirst&quot;,&quot;VeryAdultLast&quot;,&quot;30&quot;,&quot;Very adult&quot;,null)" executed="True" result="Success" success="True" time="26.445" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;KindaOldFirst&quot;,&quot;KindaOldLast&quot;,&quot;50&quot;,&quot;Kinda old&quot;,null)" executed="True" result="Success" success="True" time="26.854" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;OldFirst&quot;,&quot;OldLast&quot;,&quot;70&quot;,&quot;Old&quot;,null)" executed="True" result="Success" success="True" time="26.269" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;VeryOldFirst&quot;,&quot;VeryOldLast&quot;,&quot;99&quot;,&quot;Very old&quot;,null)" executed="True" result="Success" success="True" time="26.351" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;CrazyAncientFirst&quot;,&quot;CrazyAncientLast&quot;,&quot;110&quot;,&quot;Crazy ancient&quot;,null)" executed="True" result="Success" success="True" time="26.753" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;VampireFirst&quot;,&quot;VampireLast&quot;,&quot;199&quot;,&quot;Vampire&quot;,null)" executed="True" result="Success" success="True" time="26.456" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;中文&quot;,&quot;中文&quot;,&quot;8&quot;,&quot;Child&quot;,null)" executed="True" result="Success" success="True" time="26.230" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;日本語&quot;,&quot;日本語&quot;,&quot;17&quot;,&quot;Teenager&quot;,null)" executed="True" result="Success" success="True" time="26.468" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;한국어&quot;,&quot;한국어&quot;,&quot;22&quot;,&quot;Early twenties&quot;,null)" executed="True" result="Success" success="True" time="25.176" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;àçèéù&quot;,&quot;àçèéù&quot;,&quot;27&quot;,&quot;Almost thirty&quot;,null)" executed="True" result="Success" success="True" time="26.287" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup(&quot;üäöß&quot;,&quot;üäöß&quot;,&quot;40&quot;,&quot;Very adult&quot;,null)" executed="True" result="Success" success="True" time="26.580" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="DeletePerson" description="Delete Person" executed="True" result="Success" success="True" time="26.427" asserts="2">
+                    <categories>
+                      <category name="AgeRangerUIRegression" />
+                    </categories>
+                    <properties>
+                      <property name="Description" value="Delete Person" />
+                    </properties>
+                    <results>
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.DeletePerson(&quot;DeletingUserFirst&quot;,&quot;DeletingUserLast&quot;,&quot;30&quot;,null)" executed="True" result="Success" success="True" time="26.427" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="EditPerson" description="Edit Person" executed="True" result="Success" success="True" time="136.447" asserts="8">
+                    <categories>
+                      <category name="AgeRangerUIRegression" />
+                    </categories>
+                    <properties>
+                      <property name="Description" value="Edit Person" />
+                    </properties>
+                    <results>
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson(&quot;FNOnlyEditingUserFirst&quot;,&quot;FNOnlyEditingUserLast&quot;,&quot;30&quot;,&quot;FNOnlyEditedUserFirst&quot;,&quot;NoChange&quot;,&quot;NoChange&quot;,null)" executed="True" result="Success" success="True" time="34.602" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson(&quot;LNOnlyEditingUserFirst&quot;,&quot;LNOnlyEditingUserLast&quot;,&quot;30&quot;,&quot;NoChange&quot;,&quot;LNOnlyEditedUserLast&quot;,&quot;NoChange&quot;,null)" executed="True" result="Success" success="True" time="33.889" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson(&quot;AgeOnlyEditingUserFirst&quot;,&quot;AgeOnlyEditingUserLast&quot;,&quot;30&quot;,&quot;NoChange&quot;,&quot;NoChange&quot;,&quot;50&quot;,null)" executed="True" result="Success" success="True" time="33.653" asserts="2" />
+                      <test-case name="AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson(&quot;AllEditingUserFirst&quot;,&quot;AllEditingUserLast&quot;,&quot;30&quot;,&quot;AllEditedUserFirst&quot;,&quot;AllEditedUserLast&quot;,&quot;50&quot;,null)" executed="True" result="Success" success="True" time="34.303" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

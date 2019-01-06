@@ -1,0 +1,14 @@
+    #####################################################
+    # File can contain addresses to send mail to.
+    # A line can start with To: email_address,
+    # Cc: email_address, BCc: email_address or
+    # just a valid email address.
+    # Any line that starts with a # or ; is considered a comment
+    # and is ignored.
+
+    #user@example.com
+    To: Hung.N@debitsuccess.com
+    Cc: Megan.K@transactionservices.com.au
+    mikey.wan@outlook.com
+	mikeybjhd@163.com
+    #####################################################

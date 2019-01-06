@@ -1,0 +1,301 @@
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("ToddlerFirst","ToddlerLast","0","Toddler",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (12.4s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter ToddlerFirst, ToddlerLast and 0 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("ToddlerFirst", "ToddlerLast", "0") (1.8s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see ToddlerFirst and ToddlerLast in the People view with correct 0 and the correct Toddler
+-> done: AgeRangerUITestSteps.VerifyPerson("ToddlerFirst", "ToddlerLast", "0", "Toddler") (0.4s)
+And I delete created person ToddlerFirst, ToddlerLast and 0
+-> done: AgeRangerUITestSteps.DeletePerson("ToddlerFirst", "ToddlerLast", "0") (6.4s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("ChildFirst","ChildLast","2","Child",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.1s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.2s)
+And I enter ChildFirst, ChildLast and 2 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("ChildFirst", "ChildLast", "2") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see ChildFirst and ChildLast in the People view with correct 2 and the correct Child
+-> done: AgeRangerUITestSteps.VerifyPerson("ChildFirst", "ChildLast", "2", "Child") (0.3s)
+And I delete created person ChildFirst, ChildLast and 2
+-> done: AgeRangerUITestSteps.DeletePerson("ChildFirst", "ChildLast", "2") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("TeenagerFirst","TeenagerLast","14","Teenager",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter TeenagerFirst, TeenagerLast and 14 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("TeenagerFirst", "TeenagerLast", "14") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see TeenagerFirst and TeenagerLast in the People view with correct 14 and the correct Teenager
+-> done: AgeRangerUITestSteps.VerifyPerson("TeenagerFirst", "TeenagerLast", "14", "Teenager") (0.4s)
+And I delete created person TeenagerFirst, TeenagerLast and 14
+-> done: AgeRangerUITestSteps.DeletePerson("TeenagerFirst", "TeenagerLast", "14") (6.4s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("EarlyTwentiesFirst","EarlyTwentiesLast","20","Early twenties",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.5s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter EarlyTwentiesFirst, EarlyTwentiesLast and 20 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("EarlyTwentiesFirst", "EarlyTwentiesLast", "20") (1.8s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see EarlyTwentiesFirst and EarlyTwentiesLast in the People view with correct 20 and the correct Early twenties
+-> done: AgeRangerUITestSteps.VerifyPerson("EarlyTwentiesFirst", "EarlyTwentiesLast", "20", "Early twenties") (0.4s)
+And I delete created person EarlyTwentiesFirst, EarlyTwentiesLast and 20
+-> done: AgeRangerUITestSteps.DeletePerson("EarlyTwentiesFirst", "EarlyTwentiesLast", "20") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("AlmostThirtyFirst","AlmostThirtyLast","25","Almost thirty",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.1s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter AlmostThirtyFirst, AlmostThirtyLast and 25 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("AlmostThirtyFirst", "AlmostThirtyLast", "25") (1.8s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see AlmostThirtyFirst and AlmostThirtyLast in the People view with correct 25 and the correct Almost thirty
+-> done: AgeRangerUITestSteps.VerifyPerson("AlmostThirtyFirst", "AlmostThirtyLast", "25", "Almost thirty") (0.3s)
+And I delete created person AlmostThirtyFirst, AlmostThirtyLast and 25
+-> done: AgeRangerUITestSteps.DeletePerson("AlmostThirtyFirst", "AlmostThirtyLast", "25") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("VeryAdultFirst","VeryAdultLast","30","Very adult",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter VeryAdultFirst, VeryAdultLast and 30 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("VeryAdultFirst", "VeryAdultLast", "30") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see VeryAdultFirst and VeryAdultLast in the People view with correct 30 and the correct Very adult
+-> done: AgeRangerUITestSteps.VerifyPerson("VeryAdultFirst", "VeryAdultLast", "30", "Very adult") (0.4s)
+And I delete created person VeryAdultFirst, VeryAdultLast and 30
+-> done: AgeRangerUITestSteps.DeletePerson("VeryAdultFirst", "VeryAdultLast", "30") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("KindaOldFirst","KindaOldLast","50","Kinda old",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.7s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter KindaOldFirst, KindaOldLast and 50 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("KindaOldFirst", "KindaOldLast", "50") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see KindaOldFirst and KindaOldLast in the People view with correct 50 and the correct Kinda old
+-> done: AgeRangerUITestSteps.VerifyPerson("KindaOldFirst", "KindaOldLast", "50", "Kinda old") (0.4s)
+And I delete created person KindaOldFirst, KindaOldLast and 50
+-> done: AgeRangerUITestSteps.DeletePerson("KindaOldFirst", "KindaOldLast", "50") (6.4s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("OldFirst","OldLast","70","Old",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter OldFirst, OldLast and 70 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("OldFirst", "OldLast", "70") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see OldFirst and OldLast in the People view with correct 70 and the correct Old
+-> done: AgeRangerUITestSteps.VerifyPerson("OldFirst", "OldLast", "70", "Old") (0.3s)
+And I delete created person OldFirst, OldLast and 70
+-> done: AgeRangerUITestSteps.DeletePerson("OldFirst", "OldLast", "70") (6.4s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("VeryOldFirst","VeryOldLast","99","Very old",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter VeryOldFirst, VeryOldLast and 99 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("VeryOldFirst", "VeryOldLast", "99") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see VeryOldFirst and VeryOldLast in the People view with correct 99 and the correct Very old
+-> done: AgeRangerUITestSteps.VerifyPerson("VeryOldFirst", "VeryOldLast", "99", "Very old") (0.4s)
+And I delete created person VeryOldFirst, VeryOldLast and 99
+-> done: AgeRangerUITestSteps.DeletePerson("VeryOldFirst", "VeryOldLast", "99") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("CrazyAncientFirst","CrazyAncientLast","110","Crazy ancient",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.4s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.2s)
+And I enter CrazyAncientFirst, CrazyAncientLast and 110 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("CrazyAncientFirst", "CrazyAncientLast", "110") (1.8s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see CrazyAncientFirst and CrazyAncientLast in the People view with correct 110 and the correct Crazy ancient
+-> done: AgeRangerUITestSteps.VerifyPerson("CrazyAncientFirst", "CrazyAncientLast", "110", "Crazy ancient") (0.4s)
+And I delete created person CrazyAncientFirst, CrazyAncientLast and 110
+-> done: AgeRangerUITestSteps.DeletePerson("CrazyAncientFirst", "CrazyAncientLast", "110") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("VampireFirst","VampireLast","199","Vampire",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter VampireFirst, VampireLast and 199 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("VampireFirst", "VampireLast", "199") (1.8s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see VampireFirst and VampireLast in the People view with correct 199 and the correct Vampire
+-> done: AgeRangerUITestSteps.VerifyPerson("VampireFirst", "VampireLast", "199", "Vampire") (0.3s)
+And I delete created person VampireFirst, VampireLast and 199
+-> done: AgeRangerUITestSteps.DeletePerson("VampireFirst", "VampireLast", "199") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("中文","中文","8","Child",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter 中文, 中文 and 8 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("中文", "中文", "8") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see 中文 and 中文 in the People view with correct 8 and the correct Child
+-> done: AgeRangerUITestSteps.VerifyPerson("中文", "中文", "8", "Child") (0.3s)
+And I delete created person 中文, 中文 and 8
+-> done: AgeRangerUITestSteps.DeletePerson("中文", "中文", "8") (6.4s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("日本語","日本語","17","Teenager",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.3s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter 日本語, 日本語 and 17 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("日本語", "日本語", "17") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see 日本語 and 日本語 in the People view with correct 17 and the correct Teenager
+-> done: AgeRangerUITestSteps.VerifyPerson("日本語", "日本語", "17", "Teenager") (0.3s)
+And I delete created person 日本語, 日本語 and 17
+-> done: AgeRangerUITestSteps.DeletePerson("日本語", "日本語", "17") (6.4s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("한국어","한국어","22","Early twenties",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter 한국어, 한국어 and 22 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("한국어", "한국어", "22") (0.6s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see 한국어 and 한국어 in the People view with correct 22 and the correct Early twenties
+-> done: AgeRangerUITestSteps.VerifyPerson("한국어", "한국어", "22", "Early twenties") (0.3s)
+And I delete created person 한국어, 한국어 and 22
+-> done: AgeRangerUITestSteps.DeletePerson("한국어", "한국어", "22") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("àçèéù","àçèéù","27","Almost thirty",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.2s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter àçèéù, àçèéù and 27 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("àçèéù", "àçèéù", "27") (1.6s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see àçèéù and àçèéù in the People view with correct 27 and the correct Almost thirty
+-> done: AgeRangerUITestSteps.VerifyPerson("àçèéù", "àçèéù", "27", "Almost thirty") (0.3s)
+And I delete created person àçèéù, àçèéù and 27
+-> done: AgeRangerUITestSteps.DeletePerson("àçèéù", "àçèéù", "27") (6.5s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.AddNewPersonAndVerifyAgeGroup("üäöß","üäöß","40","Very adult",null)
+Given I am on Age Ranger Home Page
+-> done: AgeRangerUITestSteps.GoToHomePage() (11.4s)
+When I click Add New Person button
+-> done: AgeRangerUITestSteps.AddNewPerson() (0.1s)
+And I enter üäöß, üäöß and 40 in the form
+-> done: AgeRangerUITestSteps.EnterNewPersonDetails("üäöß", "üäöß", "40") (1.6s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see üäöß and üäöß in the People view with correct 40 and the correct Very adult
+-> done: AgeRangerUITestSteps.VerifyPerson("üäöß", "üäöß", "40", "Very adult") (0.4s)
+And I delete created person üäöß, üäöß and 40
+-> done: AgeRangerUITestSteps.DeletePerson("üäöß", "üäöß", "40") (6.4s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.DeletePerson("DeletingUserFirst","DeletingUserLast","30",null)
+Given I created a new person with DeletingUserFirst, DeletingUserLast and 30
+-> done: AgeRangerUITestSteps.CreateNewPerson("DeletingUserFirst", "DeletingUserLast", "30") (19.3s)
+When I delete created person DeletingUserFirst, DeletingUserLast and 30
+-> done: AgeRangerUITestSteps.DeletePerson("DeletingUserFirst", "DeletingUserLast", "30") (6.6s)
+Then I should not see DeletingUserFirst, DeletingUserLast and 30 record anymore
+-> done: AgeRangerUITestSteps.UserNotExistVerification("DeletingUserFirst", "DeletingUserLast", "30") (0.2s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson("FNOnlyEditingUserFirst","FNOnlyEditingUserLast","30","FNOnlyEditedUserFirst","NoChange","NoChange",null)
+Given I created a new person with FNOnlyEditingUserFirst, FNOnlyEditingUserLast and 30
+-> done: AgeRangerUITestSteps.CreateNewPerson("FNOnlyEditingUser...", "FNOnlyEditingUser...", "30") (19.4s)
+When I update the FNOnlyEditingUserFirst, FNOnlyEditingUserLast and 30 with FNOnlyEditedUserFirst, NoChange and NoChange
+-> done: AgeRangerUITestSteps.UpdatePerson("FNOnlyEditingUser...", "FNOnlyEditingUser...", "30", "FNOnlyEditedUserF...", "NoChange", "NoChange") (1.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see FNOnlyEditedUserFirst and NoChange in the People view with correct NoChange instead of FNOnlyEditingUserFirst, FNOnlyEditingUserLast and 30
+-> done: AgeRangerUITestSteps.UserExistVerification("FNOnlyEditedUserF...", "NoChange", "NoChange", "FNOnlyEditingUser...", "FNOnlyEditingUser...", "30") (0.3s)
+And I delete updated person FNOnlyEditingUserFirst, FNOnlyEditingUserLast, 30, FNOnlyEditedUserFirst, NoChange and NoChange
+-> done: AgeRangerUITestSteps.DeleteUpdatedPerson("FNOnlyEditingUser...", "FNOnlyEditingUser...", "30", "FNOnlyEditedUserF...", "NoChange", "NoChange") (6.6s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson("LNOnlyEditingUserFirst","LNOnlyEditingUserLast","30","NoChange","LNOnlyEditedUserLast","NoChange",null)
+Given I created a new person with LNOnlyEditingUserFirst, LNOnlyEditingUserLast and 30
+-> done: AgeRangerUITestSteps.CreateNewPerson("LNOnlyEditingUser...", "LNOnlyEditingUser...", "30") (19.6s)
+When I update the LNOnlyEditingUserFirst, LNOnlyEditingUserLast and 30 with NoChange, LNOnlyEditedUserLast and NoChange
+-> done: AgeRangerUITestSteps.UpdatePerson("LNOnlyEditingUser...", "LNOnlyEditingUser...", "30", "NoChange", "LNOnlyEditedUserLast", "NoChange") (0.7s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see NoChange and LNOnlyEditedUserLast in the People view with correct NoChange instead of LNOnlyEditingUserFirst, LNOnlyEditingUserLast and 30
+-> done: AgeRangerUITestSteps.UserExistVerification("NoChange", "LNOnlyEditedUserLast", "NoChange", "LNOnlyEditingUser...", "LNOnlyEditingUser...", "30") (0.3s)
+And I delete updated person LNOnlyEditingUserFirst, LNOnlyEditingUserLast, 30, NoChange, LNOnlyEditedUserLast and NoChange
+-> done: AgeRangerUITestSteps.DeleteUpdatedPerson("LNOnlyEditingUser...", "LNOnlyEditingUser...", "30", "NoChange", "LNOnlyEditedUserLast", "NoChange") (6.7s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson("AgeOnlyEditingUserFirst","AgeOnlyEditingUserLast","30","NoChange","NoChange","50",null)
+Given I created a new person with AgeOnlyEditingUserFirst, AgeOnlyEditingUserLast and 30
+-> done: AgeRangerUITestSteps.CreateNewPerson("AgeOnlyEditingUse...", "AgeOnlyEditingUse...", "30") (19.6s)
+When I update the AgeOnlyEditingUserFirst, AgeOnlyEditingUserLast and 30 with NoChange, NoChange and 50
+-> done: AgeRangerUITestSteps.UpdatePerson("AgeOnlyEditingUse...", "AgeOnlyEditingUse...", "30", "NoChange", "NoChange", "50") (0.6s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.1s)
+Then I should see NoChange and NoChange in the People view with correct 50 instead of AgeOnlyEditingUserFirst, AgeOnlyEditingUserLast and 30
+-> done: AgeRangerUITestSteps.UserExistVerification("NoChange", "NoChange", "50", "AgeOnlyEditingUse...", "AgeOnlyEditingUse...", "30") (0.3s)
+And I delete updated person AgeOnlyEditingUserFirst, AgeOnlyEditingUserLast, 30, NoChange, NoChange and 50
+-> done: AgeRangerUITestSteps.DeleteUpdatedPerson("AgeOnlyEditingUse...", "AgeOnlyEditingUse...", "30", "NoChange", "NoChange", "50") (6.7s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature.EditPerson("AllEditingUserFirst","AllEditingUserLast","30","AllEditedUserFirst","AllEditedUserLast","50",null)
+Given I created a new person with AllEditingUserFirst, AllEditingUserLast and 30
+-> done: AgeRangerUITestSteps.CreateNewPerson("AllEditingUserFirst", "AllEditingUserLast", "30") (19.8s)
+When I update the AllEditingUserFirst, AllEditingUserLast and 30 with AllEditedUserFirst, AllEditedUserLast and 50
+-> done: AgeRangerUITestSteps.UpdatePerson("AllEditingUserFirst", "AllEditingUserLast", "30", "AllEditedUserFirst", "AllEditedUserLast", "50") (1.0s)
+And I Submit the form
+-> done: AgeRangerUITestSteps.SubmitForm() (0.1s)
+And I confirm the action
+-> done: AgeRangerUITestSteps.ConfirmAction() (6.2s)
+Then I should see AllEditedUserFirst and AllEditedUserLast in the People view with correct 50 instead of AllEditingUserFirst, AllEditingUserLast and 30
+-> done: AgeRangerUITestSteps.UserExistVerification("AllEditedUserFirst", "AllEditedUserLast", "50", "AllEditingUserFirst", "AllEditingUserLast", "30") (0.3s)
+And I delete updated person AllEditingUserFirst, AllEditingUserLast, 30, AllEditedUserFirst, AllEditedUserLast and 50
+-> done: AgeRangerUITestSteps.DeleteUpdatedPerson("AllEditingUserFirst", "AllEditingUserLast", "30", "AllEditedUserFirst", "AllEditedUserLast", "50") (6.6s)
+=> AgeRangerWebUi.Features.AgeRangerUITestsFeature
+-> Using app.config
