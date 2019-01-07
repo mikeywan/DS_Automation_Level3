@@ -7,11 +7,5 @@
 + Open The Solution in VS
 + Build the Solution/Restore Nuget packages
 + Install NUnit3TestAdapter Nuget package
++ Copy driver "chromedriver.exe" from folder "AgeRangerAutomationSuite/Drivers" to "AgeRangerAutomationSuite/bin/Debug"
 + Execute/Debug Tests
-
-
-Please send the completed assesment via Zip
-Please don’t **commit changes or fork** branch directly on GitHub
-
-
-
